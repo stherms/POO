@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="ProjectCode.modelo.B1_SocioEstandar" table = "socioestandar" catalog="estherms">
+        <id name="numSocio" column="numSocio">
+            <generator class="increment"></generator>
+        </id>
+        <property name="nombre" type="string" column="nombre"/>
+        <property name="nif" type="string" column="NIF"/>
+        <property name="seguro" type="string" column="seguro"/>
+    </class>
+</hibernate-mapping>

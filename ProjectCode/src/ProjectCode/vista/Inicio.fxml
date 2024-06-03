@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ProjectCode.controlador.ControladorInicio">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
+         <children>
+            <Button fx:id="btnMostrarSocios" layoutX="205.0" layoutY="49.0" mnemonicParsing="false" onAction="#mostrarSocios" prefHeight="39.0" prefWidth="220.0" text="Mostrar socios" textAlignment="CENTER">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnInsertarFederado" layoutX="204.0" layoutY="100.0" mnemonicParsing="false" onAction="#abrirInsertarFederado" prefHeight="39.0" prefWidth="220.0" text="Añadir socio Federado" textAlignment="CENTER">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnInsertarInfantil" layoutX="205.0" layoutY="154.0" mnemonicParsing="false" onAction="#abrirInsertarInfantil" prefHeight="39.0" prefWidth="220.0" text="Añadir socio Infantil" textAlignment="CENTER">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnInsertarEstandar" layoutX="209.0" layoutY="215.0" mnemonicParsing="false" onAction="#abrirInsertarEstandar" prefHeight="39.0" prefWidth="220.0" text="Añadir socio Estándar" textAlignment="CENTER">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnEliminar" layoutX="209.0" layoutY="269.0" mnemonicParsing="false" onAction="#borrarSocios" prefHeight="39.0" prefWidth="220.0" text="Eliminar socio" textAlignment="CENTER">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnSalir" layoutX="209.0" layoutY="324.0" mnemonicParsing="false" onAction="#salir" prefHeight="39.0" prefWidth="220.0" text="Salir" textAlignment="CENTER">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+         </children>
+    </AnchorPane>
+  </children>
+</VBox>
