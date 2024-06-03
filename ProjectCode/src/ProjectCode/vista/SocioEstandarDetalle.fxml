@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ProjectCode.controlador.ControladorEstandar">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
+         <children>
+            <Label fx:id="lbNumSocio" alignment="CENTER" layoutX="85.0" layoutY="53.0" style="&#10;" text="Numero Socio" textAlignment="CENTER" wrapText="false">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Button fx:id="btnAceptar" layoutX="158.0" layoutY="291.0" mnemonicParsing="false" onAction="#aceptarEstandar" prefHeight="39.0" prefWidth="128.0" text="Aceptar" textAlignment="CENTER">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnCancelar" layoutX="307.0" layoutY="291.0" mnemonicParsing="false" onAction="#volver" prefHeight="39.0" prefWidth="128.0" text="Cancelar" textAlignment="CENTER">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Label fx:id="lbNombre" alignment="CENTER" layoutX="135.0" layoutY="98.0" style="&#10;" text="Nombre" textAlignment="CENTER" wrapText="false">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="lbPadre" alignment="CENTER" layoutX="174.0" layoutY="149.0" style="&#10;" text="NIF" textAlignment="CENTER" wrapText="false">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="tFNumSocio" layoutX="218.0" layoutY="53.0" prefHeight="25.0" prefWidth="78.0" />
+            <TextField fx:id="tFNombre" layoutX="218.0" layoutY="99.0" prefHeight="25.0" prefWidth="326.0" />
+            <TextField fx:id="tFNIF" layoutX="218.0" layoutY="150.0" prefHeight="25.0" prefWidth="170.0" />
+            <Label fx:id="lbPadre1" alignment="CENTER" layoutX="145.0" layoutY="205.0" style="&#10;" text="Seguro" textAlignment="CENTER" wrapText="false">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <ComboBox fx:id="cBSeguro" layoutX="221.0" layoutY="206.0" prefHeight="25.0" prefWidth="170.0" />
+         </children>
+    </AnchorPane>
+  </children>
+</VBox>
